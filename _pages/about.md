@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Ph.D. Student at <a href='https://www.berkeley.edu/'>UC Berkeley</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Mechanical Systems Control Lab</p>
+    <p>University of California, Berkeley</p>
+    <p>Berkeley, CA 94720</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -22,13 +22,31 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Ph.D. student in the [Mechanical Systems Control Lab](https://msc.berkeley.edu/) at UC Berkeley, advised by [Prof. Masayoshi Tomizuka](https://me.berkeley.edu/people/masayoshi-tomizuka/) (Member of the National Academy of Engineering). My research focuses on **Reinforcement Learning for Control** and **Dexterous Manipulation**.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Prior to Berkeley, I received dual bachelor's degrees in Mechanics and Aerospace Engineering from Tsinghua University, where I graduated ranked 1st in my class with a GPA of 3.90.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+## Research Interests
+
+My research lies at the intersection of reinforcement learning, control theory, and robotics. I am particularly interested in:
+
+- **Domain Adaptation**: Developing methods that enable policies to generalize across different environments and dynamics
+- **Policy Customization**: Creating frameworks for test-time adaptation and personalization of learned behaviors
+- **Model-based Reinforcement Learning**: Improving sample efficiency and performance through learned dynamics models
+- **Dexterous Manipulation**: Applying RL techniques to complex robotic manipulation tasks
+
+## Recent Work
+
+I have been working on several exciting projects, including:
+- **Domain Adaptive Diffusion Policy (DADP)**: A novel approach that achieves state-of-the-art performance on domain adaptation tasks
+- **Residual Q-Learning**: Enabling test-time policy customization on super-human level agents like GT Sophy 1.0
+- **Discrete Diffusion for VLA**: Improving the efficiency and language-following ability of vision-language-action models
+
+My work has been published at top-tier venues including ICLR, ICRA, and L4DC, with several papers currently under review.
+
+Feel free to reach out if you're interested in collaboration or have questions about my research!
