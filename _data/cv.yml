@@ -24,11 +24,7 @@ cv:
         studyType: Ph.D.
         start_date: 2024-08
         end_date: Present
-        score: "GPA: 4.00"
-        highlights:
-          - "Major: Control, Minors: Robotics, Learning and Optimization"
-          - "Research Interests: Reinforcement Learning for Control, Dexterous Manipulation"
-          - "Research Advisor: Prof. Masayoshi Tomizuka (Member of the National Academy of Engineering)"
+
 
       - institution: Tsinghua University
         location: Beijing, China
@@ -37,15 +33,11 @@ cv:
         studyType: B.S. and B.Eng.
         start_date: 2020-09
         end_date: 2024-07
-        score: "GPA: 3.90, Rank: 1st"
-        highlights:
-          - "B.S. in Mechanics and B.Eng. in Aerospace Engineering"
-          - "Tang Lixin Scholarship (top 5% in 2021 for academic excellence)"
-          - "Academic Excellence Scholarship (top 3 in 2022 for academic excellence)"
 
-    Experience:
+
+    Industrial Experiences:
       - company: Amazon Robotics
-        position: Research Intern - Offline Reinforcement Learning for Warehouse Manipulation
+        position: Applied Scientist Intern - Offline RL for Warehouse Manipulation
         location: Washington, USA
         start_date: 2025-05
         end_date: 2025-08

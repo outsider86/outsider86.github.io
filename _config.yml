@@ -2,12 +2,12 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: # the website title (if blank, full name will be used instead)
+title: Pengcheng Wang
 first_name: Pengcheng
 middle_name:
 last_name: Wang
 contact_note: >
-  Feel free to reach out via email for research collaborations or inquiries.
+  Feel free to reach out via email for research collaborations or chat.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Ph.D. Student at UC Berkeley focusing on Reinforcement Learning for Control and Dexterous Manipulation.
 footer_text: >
