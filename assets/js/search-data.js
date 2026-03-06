@@ -18,17 +18,10 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "Transferable and Scalable RL for Robotics",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
-          },
-        },{id: "nav-talks",
-          title: "talks",
-          description: "Invited talks, presentations, and seminars.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/talks/";
           },
         },{id: "nav-cv",
           title: "CV",
@@ -416,51 +409,41 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-rl-that-reinvents-human-intelligence",
+          title: 'RL that Reinvents Human Intelligence',
+          description: "Reinforcement learning towards general intelligence",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
+              window.location.href = "/projects/rl-human-intelligence/";
+            },},{id: "projects-scale-via-architecture",
+          title: 'Scale via Architecture',
           description: "another without an image",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
+              window.location.href = "/projects/scalable-data/";
+            },},{id: "projects-scale-via-parallelization",
+          title: 'Scale via Parallelization',
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/scalable-demo/";
+            },},{id: "projects-scale-via-sparse-reward",
+          title: 'Scale via Sparse Reward',
+          description: "a project with a background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/scalable-models/";
+            },},{id: "projects-transfers-across-dynamics",
+          title: 'Transfers across Dynamics',
+          description: "Policies that generalize across different dynamics and environments",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/transfer-dynamics/";
+            },},{id: "projects-transfer-across-embodiments",
+          title: 'Transfer across Embodiments',
+          description: "Policies that generalize across different robot morphologies and bodies",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/transfer-embodiments/";
+            },},{id: "projects-transfer-across-tasks-rewards",
+          title: 'Transfer across Tasks/ Rewards',
+          description: "Policies that generalize across different task objectives",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/transfer-tasks/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
