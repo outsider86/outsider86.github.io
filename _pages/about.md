@@ -17,7 +17,7 @@ social: true # includes social icons at the bottom of the page
 
 ---
 
-I am a Ph.D. student in the [Mechanical Systems Control Lab](https://msc.berkeley.edu/) at UC Berkeley, advised by [Prof. Masayoshi Tomizuka](https://me.berkeley.edu/people/masayoshi-tomizuka/) (Member of the National Academy of Engineering).
+I am a Ph.D. student in the [Mechanical Systems Control Lab](https://msc.berkeley.edu/) at [UC Berkeley](https://www.berkeley.edu/), advised by [Prof. Masayoshi Tomizuka](https://me.berkeley.edu/people/masayoshi-tomizuka/) (Member of the National Academy of Engineering).
 Prior to that, I received dual bachelor's degrees in Mechanics and Aerospace from [Tsinghua University](https://www.tsinghua.edu.cn/). During my undergraduate studies, I worked with [Prof. Shengbo Eben Li](https://www.svm.tsinghua.edu.cn/essay/80/1835.html).
 
 I worked on **Transferable and Scalable Reinforcement Learning for Robotics**.

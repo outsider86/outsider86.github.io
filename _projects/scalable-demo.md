@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
+title: Scale via Parallelization
+description: another project with an image 🎉
+img: assets/img/6.jpg
 importance: 4
-category: fun
+category: Scalable RL
 ---
 
 Every project has a beautiful feature showcase page.

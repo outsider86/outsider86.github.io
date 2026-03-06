@@ -35,6 +35,18 @@
                   {% endif %}
                 </td>
               </tr>
+              {% if entry.logo %}
+                <tr>
+                  <td>
+                    <img
+                      src="{{ entry.logo | relative_url }}"
+                      alt="{{ entry.institution }} logo"
+                      class="img-fluid rounded z-depth-1"
+                      style="max-height: 90px; margin-top: 0.25rem;"
+                    >
+                  </td>
+                </tr>
+              {% endif %}
               {% capture location %}
                 {% if entry.location %}{{ entry.location }}{% endif %}
               {% endcapture %}
@@ -65,7 +77,9 @@
           {% endif %}
 
           {% if entry.institution %}
-            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ entry.institution }}</h6>
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">
+              {{ entry.institution }}
+            </h6>
           {% endif %}
 
           {% if entry.area %}

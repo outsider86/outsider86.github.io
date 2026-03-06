@@ -5,7 +5,7 @@ cv:
   phone: +1 (510)-282-5052
   location: Berkeley, California
   image: ""
-  summary: Ph.D. Student at UC Berkeley focusing on Reinforcement Learning for Control and Dexterous Manipulation. Research interests include domain adaptation, policy customization, and model-based reinforcement learning.
+  # summary: Ph.D. Student at UC Berkeley focusing on Reinforcement Learning for Control and Dexterous Manipulation. Research interests include domain adaptation, policy customization, and model-based reinforcement learning.
 
   social_networks:
     - network: Google Scholar
@@ -18,150 +18,54 @@ cv:
   sections:
     Education:
       - institution: University of California, Berkeley
-        location: Berkeley, California, USA
+        location: California, USA
         url: https://www.berkeley.edu/
-        area: Control
-        studyType: Ph.D.
+        area: Reinforcement Learning & Robotics
+        studyType: Ph.D. Student
         start_date: 2024-08
-        end_date: Present
+        end_date: Now
+        logo: assets/img/cv/berkeley.svg
 
 
       - institution: Tsinghua University
         location: Beijing, China
         url: https://www.tsinghua.edu.cn/
-        area: Mechanics and Aerospace Engineering
+        area: Mechanics & Aerospace Engineering
         studyType: B.S. and B.Eng.
         start_date: 2020-09
         end_date: 2024-07
+        logo: assets/img/cv/tsinghua.png
 
 
-    Industrial Experiences:
-      - company: Amazon Robotics
-        position: Applied Scientist Intern - Offline RL for Warehouse Manipulation
+    Experience:
+      - company: Amazon Robotics | Internship
+        position: Applied Scientist
         location: Washington, USA
         start_date: 2025-05
         end_date: 2025-08
+        logo: assets/img/cv/amazon-robotics.webp
         highlights:
-          - "Developed a complete pipeline of offline RL to improve upon rule-based expert for warehouse manipulation"
-          - "Achieved higher success rate with only binary labels of demonstrations"
+          - "Working on large-scale offline RL for warehouse manipulation"
+          - "Transfer successful experiences to the failed cases"
 
-      - company: Mechanical Systems Control Lab, UC Berkeley
-        position: Graduate Researcher - Domain Adaptive Diffusion Policy
-        location: Berkeley, California, USA
-        start_date: 2025-08
+      - company: Meta | Internship
+        position: Research Scientist
+        location: Washington, USA
+        start_date: 2026-02
         end_date: Present
+        logo: assets/img/cv/meta.png
         highlights:
-          - "Developed a novel diffusion policy with learned domain embedding, achieving SOTA performance on domain adaptation task"
-          - "Extracted static domain knowledge from context in an unsupervised approach with superior representative quality"
-          - "Introduced direct guidance on the diffusion process with learned embedding for better performance and inference efficiency"
+          - "Working on Dexterous Manipulation"
 
       - company: Mechanical Systems Control Lab, UC Berkeley
-        position: Graduate Researcher - Discrete Diffusion for Efficient VLA
-        location: Berkeley, California, USA
-        start_date: 2025-10
-        end_date: Present
-        highlights:
-          - "Combined and extended Real-time Chunking to Discrete Diffusion VLA for boosted efficiency and control quality"
-          - "Developed a discrete diffusion VLA upon a self-built preference-based dataset, greatly improving language following ability"
-
-      - company: Mechanical Systems Control Lab, UC Berkeley
-        position: Graduate Researcher - Residual Q-Learning for Policy Customization
-        location: Berkeley, California, USA
-        start_date: 2023-08
-        end_date: Present
-        highlights:
-          - "Brought Residual Q-Learning (RQL) online, enabling test-time policy customization on super-human level racing agent GT Sophy 1.0"
-          - "Applied online-adaptation ability in LLM test-time-scaling to improve model alignment performance without external reward models"
-          - "Extended RQL to policy gradient methods, introducing a unified framework for on-policy customization"
-          - "Extended RQL for multiple priors, enabling scaled-up RL that ingests parallelized environments"
-
-      - company: Mechanical Systems Control Lab, UC Berkeley
-        position: Graduate Researcher - Transferable Policy Learning
-        location: Berkeley, California, USA
+        position: Student Researcher
+        location: California, USA
         start_date: 2024-08
         end_date: Present
+        logo: assets/img/cv/msc.png
         highlights:
-          - "Safely transferred racing policy across different dynamics via a model-based approach"
-          - "Required only 40 laps of data to carry out the transfer without failure on GT Sophy 1.0"
+          - "Developing transferable and scalable RL for robotics"
 
-      - company: Mechanical Systems Control Lab, UC Berkeley
-        position: Graduate Researcher - Model-based Reinforcement Learning
-        location: Berkeley, California, USA
-        start_date: 2024-08
-        end_date: 2025-01
-        highlights:
-          - "Addressed policy mismatch issue in TD-MPC2 with policy constraints"
-          - "Achieved state-of-the-art performance across various continuous-control benchmarks"
-
-    Publications:
-      - title: "Residual-MPPI: Online Policy Customization for Continuous Control"
-        authors:
-          - Pengcheng Wang*
-          - Chenran Li*
-          - et al.
-        publisher: ICLR 2025
-        releaseDate: 2025
-        summary: "First-authored publication on online policy customization for continuous control tasks."
-
-      - title: "DADP: Domain Adaptive Diffusion Policy"
-        authors:
-          - Pengcheng Wang*
-          - Qinghang Liu*
-          - et al.
-        publisher: Under Review
-        summary: "Novel approach to domain adaptation using diffusion policies."
-
-      - title: "Residual Policy Gradient: A Reward View of KL-regularized Objective"
-        authors:
-          - Pengcheng Wang
-          - et al.
-        publisher: ICRA 2025 Safe-VLM Workshop (Spotlight)
-        releaseDate: 2025
-        summary: "Theoretical analysis of residual policy gradient methods."
-
-      - title: "TD-M(PC)²: Improving Temporal Difference MPC Through Policy Constraint"
-        authors:
-          - Haotian Lin
-          - Pengcheng Wang
-          - et al.
-        publisher: L4DC 2026
-        releaseDate: 2026
-        summary: "Improvements to temporal difference model predictive control."
-
-      - title: "REAR: Scalable Test-time Preference Realignment through Reward Decomposition"
-        authors:
-          - Fuxiang Zhang
-          - Pengcheng Wang
-          - et al.
-        publisher: Under Review
-        summary: "Test-time preference alignment for reinforcement learning."
-
-      - title: "Mind Your Entropy: From Maximum Entropy to Trajectory Entropy-Constrained RL"
-        authors:
-          - Guojian Zhan
-          - Pengcheng Wang
-          - et al.
-        publisher: Under Review
-        summary: "Novel approach to entropy regularization in reinforcement learning."
-
-      - title: "Mean Flow Policy with Instantaneous Velocity Constraint for One-step Action Generation"
-        authors:
-          - Guojian Zhan
-          - Letian Tao
-          - Pengcheng Wang
-          - et al.
-        publisher: ICLR 2026 (Oral)
-        releaseDate: 2026
-        summary: "One-step action generation method with velocity constraints."
-
-      - title: "HD3C: Efficient Medical Data Classification for Embedded Devices"
-        authors:
-          - Jianglan Wei*
-          - Zhenyu Zhang*
-          - Pengcheng Wang*
-          - et al.
-        publisher: Under Review
-        summary: "Efficient medical data classification for resource-constrained devices."
 
     Awards:
       - title: Tang Lixin Scholarship
@@ -173,22 +77,6 @@ cv:
         date: 2022
         awarder: Tsinghua University
         summary: Top 3 in 2022 for academic excellence
-
-    Skills:
-      - name: Reinforcement Learning
-        level: Expert
-        icon: fa-solid fa-robot
-        keywords: "Offline RL, Online RL, Policy Gradient, Q-Learning, Model-based RL, Meta-RL"
-
-      - name: Machine Learning
-        level: Expert
-        icon: fa-solid fa-brain
-        keywords: "Diffusion Models, Domain Adaptation, Transfer Learning, Deep Learning"
-
-      - name: Robotics
-        level: Advanced
-        icon: fa-solid fa-gears
-        keywords: "Dexterous Manipulation, Control Systems, Warehouse Automation"
 
     Interests:
       - name: Research

@@ -3,7 +3,7 @@ layout: page
 permalink: /talks/
 title: talks
 description: Invited talks, presentations, and seminars.
-nav: true
+nav: false
 nav_order: 4
 ---
 

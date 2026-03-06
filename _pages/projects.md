@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Transferable and Scalable RL for Robotics
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [RL towards General Intelligence, Transferable RL, Scalable RL]
 horizontal: false
 ---
 

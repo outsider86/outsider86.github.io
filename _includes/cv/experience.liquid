@@ -18,9 +18,27 @@
           {% endcapture %}
 
           {% if start_date != '' %}
-            {% comment %} Extract year only from dates like "1933-01-01" or just use "1933" as is {% endcomment %}
-            {% assign startDate = start_date | split: '-' | first %}
-            {% assign endDate = end_date | split: '-' | first | default: 'Present' %}
+            {% comment %}
+              Format dates as \"Mon YYYY\".
+              - RenderCV uses start_date/end_date like \"2025-05\"
+              - JSONResume may use full dates like \"2025-05-01\"
+            {% endcomment %}
+            {% assign start_str = start_date | strip %}
+            {% if start_str.size == 7 %}
+              {% assign start_str = start_str | append: '-01' %}
+            {% endif %}
+            {% assign startDate = start_str | date: '%b %Y' %}
+
+            {% assign end_str = end_date | strip %}
+            {% if end_str == '' %}
+              {% assign endDate = 'Present' %}
+            {% else %}
+              {% if end_str.size == 7 %}
+                {% assign end_str = end_str | append: '-01' %}
+              {% endif %}
+              {% assign endDate = end_str | date: '%b %Y' %}
+            {% endif %}
+
             {% assign date = startDate | append: ' - ' | append: endDate %}
           {% else %}
             {% assign date = '' %}
@@ -33,6 +51,18 @@
                   <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">{{ date }}</span>
                 </td>
               </tr>
+              {% if entry.logo %}
+                <tr>
+                  <td>
+                    <img
+                      src="{{ entry.logo | relative_url }}"
+                      alt="{{ company_name }} logo"
+                      class="img-fluid rounded z-depth-1"
+                      style="max-height: 90px; margin-top: 0.25rem;"
+                    >
+                  </td>
+                </tr>
+              {% endif %}
               {% capture location %}
                 {% if entry.location %}{{ entry.location }}{% endif %}
               {% endcapture %}
@@ -66,7 +96,9 @@
             {% if entry.name %}{{ entry.name }}{% elsif entry.company %}{{ entry.company }}{% elsif entry.organization %}{{ entry.organization }}{% endif %}
           {% endcapture %}
           {% if company_name != '' %}
-            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ company_name }}</h6>
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">
+              {{ company_name }}
+            </h6>
           {% endif %}
 
           {% if entry.summary %}
