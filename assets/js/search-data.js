@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "Transferable and Scalable RL for Robotics",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
         },{id: "nav-cv",
           title: "CV",
           description: "Curriculum Vitae - Pengcheng Wang, Ph.D. Student at UC Berkeley",
