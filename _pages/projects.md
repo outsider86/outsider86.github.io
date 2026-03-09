@@ -3,7 +3,7 @@ layout: page
 title: projects
 permalink: /projects/
 description: Transferable and Scalable RL for Robotics
-nav: true
+nav: false
 nav_order: 3
 display_categories: [RL towards General Intelligence, Transferable RL, Scalable RL]
 horizontal: false
